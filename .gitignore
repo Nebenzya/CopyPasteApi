@@ -1,0 +1,51 @@
+# Временные файлы
+*.swp
+*.tmp
+*.log
+
+# Файлы сборки
+bin/
+obj/
+
+# Конфигурации пользователя Visual Studio
+.vs/
+.vscode/
+*.csproj.user
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+
+# Пакеты NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Настройки IDE
+.idea/
+.vscode/
+
+# Docker файлы
+Dockerfile.*
+docker-compose.override.yml
+.env
+
+# Логи и временные файлы
+*.log
+**/logs/
+.env
+
+# Папки для кэша и временных данных
+node_modules/
+tmp/
+.cache/
+
+# Файлы системы
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Секреты и ключи
+secrets.json
+certs/
