@@ -3,10 +3,17 @@
 namespace CopyPasteApi.Controllers
 {
     [ApiController]
-    //[Route("[controller]")]
+    [Route("/")]
     public class HomeController : Controller
     {
         private static string _storedString = string.Empty;
+
+
+        [HttpGet]
+        public IActionResult GetWelcomeMessage()
+        {
+            return Content("Welcome to the CopyPasteApi!\n", "text/plain");
+        }
 
         [HttpGet("paste")]
         public IActionResult Get()

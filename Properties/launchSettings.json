@@ -1,13 +1,6 @@
 {
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "CopyPasteApi": {
+    "WebApi": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
@@ -26,14 +19,6 @@
       },
       "publishAllPorts": true,
       "useSSL": true
-    }
-  },
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:56661/",
-      "sslPort": 44323
     }
   }
 }
